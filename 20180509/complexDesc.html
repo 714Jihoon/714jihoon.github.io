@@ -1,0 +1,33 @@
+<!doctype html><!-- complexDesc.html -->
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>복합선택자 후손 실습</title>
+
+<style>
+p,h3,div {color:gray;} /* ,(comma)를 이용해 여러 개 모두 선택 가능 */
+section span {font-size:150%; color:orange;}
+</style>
+
+</head>
+
+<body>
+<section>
+    <h3>복합선택자 후손</h3>
+    
+    <!-- h3과 level 같은 div(ision) -->
+    <div>동해물과 
+        <!-- div의 하위 level인 p-->
+        <p>백두산이
+            <!-- p의 하위 level인 span -->
+            <span>마르고 </span>
+        닳도록</p>
+    </div>
+    <!-- h3, div와 같은 level인 span -->
+    하느님이 <span>보우하사</span>
+    우리나라 만세
+</section>
+</body>
+
+<!-- dom 그릴 줄 알아야 함!-->
+</html>
