@@ -1,0 +1,102 @@
+<!doctype html><!-- BorderGrammar.html -->
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<style>
+.pbsolid {border-width:5px; border-style:solid; border-color:red; background:#FFFCFC;}
+.pbslddsd {border-width:5px; border-style:solid dashed; border-color:red blue; background:#FFFCFC;}
+.pbslddsddtd {border-width:5px; border-style:solid dashed dotted; border-color:red blue orange; background:#FFFCFC;}
+
+.pbrad {border:10px solid pink; border-bottom-left-radius:10px; border-bottom-right-radius:20px; width:50%; background:#FFFCFC;}
+</style>
+
+<title>CSS border 실습</title>
+</head>
+
+<body>
+<section>
+
+<br/>
+
+<b>경계선 정의 순서</b><br/>
+<span style="color:red;">(시계 방향)</span> top, right, bottom, left<br/><br/>
+
+<b>경계선 스타일 지정</b><br/>
+<span style="color:red;">(style)</span> solid, dashed, dotted, hidden, none, …<br/>
+e.g. border-style:inset; border-bottom-style:solid;<br/><br/>
+
+<b>경계선 색상 지정</b><br/>
+<span style="color:red;">(color)</span> red, blue, green, …<br/>
+e.g. border-color:lightgray; border-bottom-color:red;<br/><br/>
+
+<b>경계선 너비(=두께) 지정</b><br/>
+<span style="color:red;">(width)</span> 10px, thick, medium, thin, …<br/>
+e.g. border-width:10px; border-left-width:20px;<br/><br/>
+
+<b>경계선 모서리 둥근 정도(반지름) 지정</b><br/>
+<span style="color:red;">(radius)</span> 5px, 10px, …<br/>
+e.g. border-radius:5px; border-top-left-radius:5px;<br/>
+
+<p class="pbrad">
+border-bottom-left-radius:10px;<br/>
+border-bottom-right-radius:20px;<br/>
+<span style="color:gray;">(border-bottom-radius는 안 되는 걸로 보아 위/아래 왼쪽, 오른쪽을 한 번에 쓸 수는 없는 듯)</span>
+</p>
+<br/>
+
+<b>스타일 축약형 사용 (style 지정은 필수)</b><br/>
+<span style="color:red;">width</span> <span style="color:blue;">style</span> <span style="color:orange;">color</span><br/>
+e.g. border: <span style="color:red;">10px </span><span style="color:blue;">solid </span><span style="color:orange;">gray</span>;<br/><br/>
+
+<br/>
+<br/>
+
+<b>경계선 스타일 일부만 입력</b><br/><br/>
+border-style: solid;<br/>
+: solid로 전체 적용<br/>
+
+<p class="pbsolid">
+죽음은 참으로 위대하다.<br/>
+우리들은<br/>
+웃고 있는 그의 입.<br/>
+우리들이 삶의 한가운데 있다고 자부할 때<br/>
+그는, 갑자기<br/>
+우리들의 속에서 울기 시작한다.
+</p>
+
+border-style:
+<span style="color:red;"> solid</span> 
+<span style="color:blue;">dashed</span>;<br/>
+: <span style="color:red;">top, bottom(solid)</span>, 
+<span style="color:blue;">right, left(dashed)</span><br/>
+
+<p class="pbslddsd">
+죽음은 참으로 위대하다.<br/>
+우리들은<br/>
+웃고 있는 그의 입.<br/>
+우리들이 삶의 한가운데 있다고 자부할 때<br/>
+그는, 갑자기<br/>
+우리들의 속에서 울기 시작한다.
+</p>
+
+border-style:<span style="color:red;"> solid</span> 
+<span style="color:blue;">dashed</span> 
+<span style="color:orange;">dotted</span>;<br/>
+: <span style="color:red;">top(solid)</span>, <span style="color:blue;">right,left(dashed)</span>, <span style="color:orange;">bottom(dotted)</span>
+
+<p class="pbslddsddtd">
+죽음은 참으로 위대하다.<br/>
+우리들은<br/>
+웃고 있는 그의 입.<br/>
+우리들이 삶의 한가운데 있다고 자부할 때<br/>
+그는, 갑자기<br/>
+우리들의 속에서 울기 시작한다.
+</p>
+
+<br/>
+
+</section>
+</body>
+</html>
