@@ -4,7 +4,45 @@
 <meta charset="utf-8"/>
 
 <style>
-*{padding:0; margin:0;}
+*{padding:0; margin:0;}<doctype html><!-- login3.html -->
+<html>
+<head>
+<meta charset="utf-8"/>
+
+<style>
+*{padding:0; margin:0;} /* (0,0)으로 시작 - 왼쪽 위에 붙어나옴 */
+#section0 {width:400px; height:120px; border:solid 1px lightgray; border-radius:1em;}
+ul.level_1 > li {list-style:none; display:inline-block; vertical-align:bottom;}
+ul.level_1 > li > ul {list-style:none;}
+.level_2 span {display:inline-block; width:70px;} /* 아이디, 비밀번호 텍스트 폭 */
+.level_2 input {width:150px} /* input(입력칸)의 폭 */
+#loginBtn button {margin-left:7px; height:42px; width:60px;} /* input과의 간격, height : 세로폭, width : 가로폭 */
+</style>
+
+<title>로그인 실습</title>
+</head>
+
+<body>
+
+<section id="section0">
+<h4>회원 로그인</h4>
+<ul class="level_1">
+
+<li><!-- 이 li의 정체는? -->
+
+<ul class="level_2">
+<li><span>아이디</span><input type="text"></li>
+<li><span>비밀번호</span><input type="password"></li>
+</ul>
+
+<li id="loginBtn"><button>로그인</button></li>
+
+</ul>
+</section>
+
+</body>
+</html>
+
 #section0 {width:400px; height:120px; border:solid 1px lightgray; border-radius:1em;}
 ul.level_1 > li {list-style:none; display:inline-block; vertical-align:bottom;}
 ul.level_1 > li > ul {list-style:none;}
