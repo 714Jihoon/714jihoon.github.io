@@ -6,14 +6,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
 <style>
-*{box-sizing:border-box;}
-div,header,nav,section,aside,footer{border:1px solid black; margin:5px;}
-div{width:100%;height:100%;}
-header,footer{clear:both;}
-nav,aside{width:25%;}
-section{width:50%;}
-nav,section,aside{float:left;height:400px;}
+*{box-sizing:border-box; margin:3px;}
 p{text-align:center;}
+div{border:1px solid black; width:100%; height:100%; padding:5px;}
+.header,.footer{clear:both;}
+.nav,.aside{width:24%;}
+.section{width:50%;}
+.nav,.section{float:left;height:400px;}
+.aside{float:right;height:400px;}
+
 </style>
 
 <title>HOMEPAGE LAYOUT</title>
@@ -21,11 +22,11 @@ p{text-align:center;}
 
 <body>
 <div>
-<header><p>Header</p></header>
-<nav><p>Nav<br/>(Menu)</p></nav>
-<section><p>Contents</p></section>
-<aside><p>Aside<br/>(Banner)</p></aside>
-<footer><p>Footer</p></footer>
+<div class=header><p>Header</p></div>
+<div class=nav><p>Nav<br/>(Menu)</p></div>
+<div class=section><p>Contents</p></div>
+<div class=aside><p>Aside<br/>(Banner)</p></div>
+<div class=footer><p>Footer</p></div>
 </div>
 </body>
 
