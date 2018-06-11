@@ -8,6 +8,7 @@ nav,.footer{background-color:#FAD7DC; text-align:center; font-family: 'Montserra
 
 .content{width:100%; padding:30px; font-family: 'Abel', 'Nanum Gothic', sans-serif;}
 .footer{color:gray; padding:10px; font-size:12px;}
+.sizeBox{height:600px;}
 
 .menu ul{list-style-type:none;}
 .menu li{margin:5px;padding:10px;display:inline;text-align:center;}
