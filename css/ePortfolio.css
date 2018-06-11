@@ -6,7 +6,7 @@ nav,.footer{background-color:#FAD7DC; text-align:center; font-family: 'Montserra
 
 #main{background-color:#FFEBF0;}
 
-.content{width:100%; padding:30px; height:100vh; font-family: 'Abel', 'Nanum Gothic', sans-serif;}
+.content{width:100%; padding:30px; height:90vh; font-family: 'Abel', 'Nanum Gothic', sans-serif;}
 .footer{color:gray; padding:10px; font-size:12px;}
 
 .menu ul{list-style-type:none;}
