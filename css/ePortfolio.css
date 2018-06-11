@@ -14,8 +14,8 @@ nav,.footer{background-color:#FAD7DC; text-align:center; font-family: 'Montserra
 .menu li{margin:5px;padding:10px;display:inline;text-align:center;}
 .menu li:hover{font-weight:bold;}
 
-.pic li{list-style-type:none;}
-.pic li{display:inline;}
+.pic ul{list-style-type:none;}
+.pic li{display:inline; margin:5px; padding:10px;}
 
 a:link{
 color:black;background-color:transparent;text-decoration:none;}
