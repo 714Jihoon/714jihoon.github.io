@@ -13,9 +13,6 @@ nav,.footer{background-color:#FAD7DC; text-align:center; font-family: 'Montserra
 .menu li{margin:5px;padding:10px;display:inline;text-align:center;}
 .menu li:hover{font-weight:bold;}
 
-.imageBox{width:25%;}
-
-
 a:link{
 color:black;background-color:transparent;text-decoration:none;}
 a:visited{
