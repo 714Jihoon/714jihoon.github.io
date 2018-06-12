@@ -24,4 +24,4 @@ color:black;background-color:transparent;text-decoration:none;}
 a:active{
 color:black;background-color:transparent;text-decoration:none;}
 
-@media only screen and (max-width:768px) {.imageBox{display:none;} .menu li{display:block; margin:2px;} .bigPic img{width:200px;}}
+@media only screen and (max-width:768px) {.imageBox{display:none;} .menu li{display:block; margin:2px;} .bigPic img{width:300px;}}
