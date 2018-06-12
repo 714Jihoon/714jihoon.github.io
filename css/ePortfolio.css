@@ -24,4 +24,4 @@ color:black;background-color:transparent;text-decoration:none;}
 a:active{
 color:black;background-color:transparent;text-decoration:none;}
 
-@media only screen and (max-width:768px) {img{display:none;}}
+@media only screen and (max-width:768px) {.imagebox{display:none;}}
